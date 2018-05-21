@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(172, 167, 167);
+}
+.kvadratas{
+    background-color:rgb(85, 85, 85);
+    width:35vw;
+    height:35vw;
+    margin:auto;
+    position:relative;
+}
+.kvadratas div{
+    margin:1% 1% 1% 1%;
+}
+.red, .green, .blue{
+    width:20vw;
+    height:20vw;
+    border-radius: 50%;
+    position:absolute;
+}
+.red{
+    border:5px solid red;
+    background: rgba(255,0,0,0.5);
+    left:20%;
+}
+.R, .G, .B{
+    text-align:center;
+    top:calc(50% - 1em);
+    position:relative;
+    font-size:1em;
+}
+.green{
+    border:5px solid green;
+    background:rgba(0,255,0,0.5);
+    bottom:0%;
+}
+.blue{
+    border:5px solid blue;
+    background:rgba(0,0,255,0.5);
+    bottom:0%;
+    right:0%;
+}
