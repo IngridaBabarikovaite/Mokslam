@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+#Viršus{
+    display:flex;
+    width:100%;
+    flex-direction:row;
+}
+#Viršus div{
+    background-color:green;
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    overflow:auto;
+}
+#A{
+    flex:75%;
+}
+#A:hover{
+    background-color:yellowgreen;
+}
+#B{
+    flex:25%;
+}
+#B:hover{
+    background-color:lightgreen;
+}
+#Centras{
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    height:80vh;
+}
+#Left{
+    background-color:yellow;
+    display:flex;
+    flex-direction:column;
+    flex:25%;
+    overflow:scroll;
+}
+#Left:hover{
+    background-color:ivory;
+}
+#Mid{
+    background-color:blue;
+    flex:50%;
+    overflow:hidden;
+}
+#Mid div{
+    flex-direction:column;
+    display:flex;
+    overflow:auto;
+}
+#D:hover{
+    background-color:cadetblue;
+}
+#E:hover{
+    background-color:dimgray;
+}
+#Right{
+    background-color:coral;
+    flex:25%;
+    overflow:auto;
+}
+#Right div{
+    display:flex;
+    flex-direction:column;
+    overflow:scroll;
+}
+#F{
+    height:20vh;
+}
+#F:hover{
+    background-color:lightsalmon;
+}
+#H, #G{
+    height:100%;
+}
+#Apačia{
+    background-color:aqua;
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    overflow:scroll;
+}
+#Apačia:hover{
+    background-color:orangered;
+}
+#Viršus, #Apačia, #D, #E{
+    height:10vh;
+}
+#H:hover{
+    background-color:violet;
+}
+#G:hover{
+    background-color:royalblue;
+}
